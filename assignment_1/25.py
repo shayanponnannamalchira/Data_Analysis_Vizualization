@@ -6,3 +6,12 @@ Write a Python program to extract and display the latitude and longitude separat
 
 Topics: Tuples, Indexing, Variables.
 """
+
+location = (13.3409, 77.1010)
+
+latitude = location[0]
+longitude = location[1]
+
+print("Delivery Location:", location)
+print("Latitude:", latitude)
+print("Longitude:", longitude)
